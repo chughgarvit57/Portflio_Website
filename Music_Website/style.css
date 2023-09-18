@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Poppins:ital,wght@0,200;0,300;1,200;1,900&display=swap');
+
+:root{
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red600: #dc0000;
+    --body: #f9f6ff;
+    --max-width: 1200px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--body);
+    padding: 20px 0;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    /* font-size: 20px; */
+}
+
+.logo-container{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+nav ul li{
+    border: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+nav ul li a{
+    font-size: 20px;
+}
+
+header{
+    background-color: var(--purple300);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    padding: 0px 25px;
+}
+
+/* Hero Section Designing */
+.hero{
+    background-image: url("images/hero_image.png");
+    height: 100vh;
+    display: grid;
+    color: #fff;
+    text-align: center;
+    place-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero h1{
+    font-size: 96px;
+}
+
+.hero h3{
+    font-size: 30px;
+}
+
+.hero a{
+    font-size: 20px;
+    font-weight: 900;
+} 
+
+/* Music section designing */
+
+.music-section{
+    padding-top: 50px;
+    background: var(--purple500);
+}
+
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: #fff;
+}
+
+.ipad-iphone-img-container{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+
+.primary-btn{
+    background-color: #dc0000;
+    color: white;
+}
+
+/* Music section */
+
+.secondary-btn{
+    background-color: var(--purple300);
+    color: white;
+}
+
+.about-music{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Video Section styling */
+
+.video-section{
+    background-image: url("images/video.png");
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    gap: 30px;
+}
+
+.video-section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: -200px;
+}
+
+.hero , .video-section{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Gift page designing */
+
+.giftpage{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.gift-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 15px;
+    text-align: justify;
+}
+
+.giftpage{
+    scroll-margin: 120px;
+}
+
+/* Footer section designing */
+.footer-upper{
+    background-color: var(--purple600);
+    padding: 20px;
+}
+
+.footer-upper .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-upper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.footer-lower{
+    background-color: var(--purple300);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #f9f6ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html , body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'VT323', monospace;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url("images/Scenery_3.jpg");
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url("images/Scenery_2.jpg");
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url("images/Scenery_1.jpg");
+    min-height: 400px;
+}
+
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background-color: #313534;
+    padding: 25px;
+    color: #fff;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #ed9797;
+    color: #666;
+}
+
+.section-dark{
+    background-color: #02183b;
+    color: aliceblue;
+}
