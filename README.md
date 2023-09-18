@@ -1,8 +1,10 @@
 # Portflio_Website
-This repository contains the source code and assets for my personal portfolio website. It showcases my skills, projects, and experiences as a web developer and designer..
+This repository contains the source code and assets for my personal portfolio website. 
+It showcases my skills, projects, and experiences as a web developer and designer..
 
 About Me:
-I'm passionate about web development and designing, and I'm excited to share my work with you. This website serves as a digital resume and portfolio, highlighting my journey and achievements.
+I'm passionate about web development and designing, and I'm excited to share my work with you. 
+This website serves as a digital resume and portfolio, highlighting my journey and achievements.
 
 Features:
 The key features of my website include:-
@@ -17,4 +19,5 @@ Linkedin - https://www.linkedin.com/in/garvit-chugh-128742236/
 Instagram - https://www.instagram.com/garvit_chugh1909/
 Github - https://github.com/chughgarvit57
 
-Feel free to explore my portfolio, and I'm open to feedback and collaboration opportunities. Thank you for visiting!
+Feel free to explore my portfolio, and I'm open to feedback and collaboration opportunities. 
+Thank you for visiting!
